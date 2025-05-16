@@ -1,0 +1,120 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ADD8E6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      text-align: center;
+      margin-top: 0px;
+    }
+
+    .title 
+	{
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 10px;
+	  margin-top:30px;
+    }
+
+    .logo
+	{
+      content:url("../Images/LogoUMP.png");
+	  margin-left:20px;
+    }
+
+    .form-wrapper 
+	{
+      position: relative;
+      width: 100%;
+      max-width: 1200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 60px;
+    }
+
+    .form-wrapper::before 
+	{
+      content: "";
+      position: absolute;
+      top: 25%;
+      left: 140;
+      width: 140%;
+      height: 2px;
+      background-color: black;
+      z-index: 0;
+    }
+
+    .form-box {
+      background-color: #eef5f5;
+      padding: 50px;
+      border: 2px solid #888;
+      border-radius: 8px;
+      width: 1000px; /* Larger box */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: left;
+      position: relative;
+      z-index: 1;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      font-weight: bold;
+      margin-top: 20px;
+      margin-bottom: 8px;
+      font-size: 18px; /* Larger text */
+    }
+
+    input {
+      padding: 14px;
+      font-size: 16px; /* Larger input */
+      border: 1px solid #999;
+      border-radius: 4px;
+    }
+
+    .button-container {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    button {
+      padding: 12px 35px;
+      background-color: #000b58;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 18px; /* Larger button */
+    }
+
+    .forgot-password {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 15px;
+    }
+
+    .forgot-password a {
+      text-decoration: none;
+      color: #000;
+    }
+	select {
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  background-color: white;
+}

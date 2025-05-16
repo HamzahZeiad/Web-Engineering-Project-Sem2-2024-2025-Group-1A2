@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Jaclina" content="Web Engineering Project- Student Dashboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/eventadvisor.css">
+    <title>MyPetakom - add event</title>
+</head>
+<body>
+    <!-- Top Header -->
+    <div class="top-heading-container">
+        MyPetakom - Event Advisor
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <!-- UMP Logo -->
+            <div class="logo">
+			<img src="TestImages/UMP-Logo.jpg" alt="UMP Logo">
+            </div>
+            <!-- Profile Picture -->
+            <img src="TestImages/user.png" alt="Profile Picture">
+            <h2>Maneessa</h2>
+            <a href="eventadvisorprofile.html">Profile</a>
+            <a href="dashboardeventadvisor.html">Dashboard</a>
+            <a href="event.html">Events</a>
+            <a href="meriteventadvisor.html">Merit</a>
+            <a href="committee.html">Committee</a>
+            <a href="attendanceeventadvisor.html">Attendance</a>
+        </div>
+        <main class="main-content">
+	  
+	   <div class="header">
+	     <div class="header-left">
+          <h1 class="h">EVENT</h1>
+       </div>
+       <a href="signouteventadvisor.html" class="signout-btn">SIGN OUT</a>
+       </div>
+   
+	
+	 <div class="form">
+	   <h2 class="h">Add Event</h2>
+	   <form>
+	   
+	   <label for="name">Name:</label>
+	   <input type="text" id="name" name="name" required><br>
+	   
+	   <label for="date">Date:</label>
+	   <input type="date" id="date" name="date" required><br>
+	   
+	   <label for="start_time">Start Time:</label>
+	   <input type="time" id="start_time" name="start_time" required><br>
+	   
+	   <label for="end_time">Start Time:</label>
+	   <input type="time" id="end_time" name="end_time" required><br>
+	   
+	   <label for="location">Location:</label>
+	   <input type="text" id="location" name="location" required><br>
+	   
+	   <label for="status">Status:</label>
+	   <input type="text" id="status" name="status" required><br>
+	   
+	   <label for="geolocation">GeoLocation:</label>
+	   <input type="text" id="geolocation" name="geolocation" required><br>
+	   
+	   <label for="approval_letter">Approval Letter:</label>
+	   <input type="file" id="approval_letter" name="approval_letter" required><br>
+	  <div class="btn">
+	   <a href="event.html" class="button">Save</a>
+	   <a href="event.html" class="button">Cancel</a>
+	   <a href="event.html" class="button">Back</a>
+	   </div>
+	   </form>
+
+		</div>
+		</main>
+		</div>
+</body>
+</html>

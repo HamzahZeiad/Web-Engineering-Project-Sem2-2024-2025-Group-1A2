@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MyPETAKOM Login</title>
+  <link rel="stylesheet" href="style/logindashboard.css"/>
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="title">MyPETAKOM</h1>
+    <div class="logo"></div>
+  </div>
+
+  <div class="form-wrapper">
+    <div class="form-box">
+      <form action="login.php" method="POST">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="position">Position</label>
+        <select id="position" name="position" required>
+          <option value="" disabled selected>Select your position</option>
+          <option value="Student">Student</option>
+          <option value="Event Advisor">Event Advisor</option>
+          <option value="Admin">Admin</option>
+        </select>
+
+        <div class="button-container">
+          <button type="submit">Login</button>
+        </div>
+
+        <div class="forgot-password">
+          <a href="#">Forgot Password?</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

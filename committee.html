@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Jaclina" content="Web Engineering Project- Student Dashboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/eventadvisor.css">
+    <title>MyPetakom - committee</title>
+</head>
+<body>
+    <!-- Top Header -->
+    <div class="top-heading-container">
+        MyPetakom - Event Advisor
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <!-- UMP Logo -->
+            <div class="logo">
+			<img src="TestImages/UMP-Logo.jpg" alt="UMP Logo">
+            </div>
+            <!-- Profile Picture -->
+            <img src="TestImages/user.png" alt="Profile Picture">
+            <h2>Maneessa</h2>
+            <a href="eventadvisorprofile.html">Profile</a>
+            <a href="dashboardeventadvisor.html">Dashboard</a>
+            <a href="event.html">Events</a>
+            <a href="meriteventadvisor.html">Merit</a>
+            <a href="committee.html">Committee</a>
+            <a href="attendanceeventadvisor.html">Attendance</a>
+        </div>
+        <main class="main-content">
+	  
+	   <div class="header">
+	     <div class="header-left">
+          <h1>Committee</h1>
+       </div>
+       <a href="signouteventadvisor.html" class="signout-btn">SIGN OUT</a>
+       </div>
+
+	   <div class="form">
+	   <label for="position">Position:</label>
+	   <input type="text" id="name" name="name" required><br>
+	   
+	   <label for="id">StudentID:</label>
+	   <input type="text" id="text" name="text" required><br>
+	   
+	   <label for="event">Event:</label>
+	   <input type="event" id="event" name="event" required><br>
+	   
+	   <a href="committee.html" class="applybutton">Apply</a>
+	   
+	   </div>
+	   
+	   
+	
+	 <section class="position">
+	   <table>
+	    <thead>
+	      <tr>
+		    <th>No.</th>
+			<th>Student ID</th>
+			<th>Position</th>
+			<th>Status</th>
+			<th>Action</th>
+	       </tr>
+		</thead>
+		<tbody>
+		    <tr>
+		     <td>1</td>
+			 <td>Event A</td>
+		     <td>2025-05-10</td>
+			 <td>Approved</td>
+			 <td>
+				<a href="delete.html" class="button">Delete</a>
+			</td>
+		    </tr>
+			<tr>
+		     <td>2</td>
+			 <td>Event B</td>
+		     <td>2025-05-12</td>
+			 <td>Pending</td>
+			 <td>
+				<a href="delete.html" class="button">Delete</a>
+			</td>
+		    </tr>
+		</tbody>
+		</table>
+		</section>
+		</main>
+</body>
+</html>

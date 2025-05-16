@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Hamzah" content="Web Engineering Project- Student Dashboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/StudentDash.css">
+    <title>MyPetakom - Student Dashboard</title>
+</head>
+<body>
+    <!-- Top Header -->
+    <div class="top-heading-container">
+        MyPetakom - Student Dashboard
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <!-- UMP Logo -->
+            <div class="logo">
+                <img src="/TestImages/UMP-logo.jpg" alt="UMP Logo">
+            </div>
+            <!-- Profile Picture -->
+            <img src="TestImages/IMG_9255.JPG" alt="Profile Picture">
+            <h2>Hamzah Zeiad (CB23007)</h2>
+
+            <a href="studentprofile.html">Profile</a>
+			<a href="dashboardstudent.html">Dashboard</a>
+            <a href="studentevent.html">Events</a>
+            <a href="studentattendance.html">Attendance</a>
+            <a href="Managemerit.html">Merit Management</a>
+        </div>
+			
+        <div class="main-content">
+            <div class="header">
+                <h1>Attendance</h1>
+				<a href="signoutstudent.html" class="signout-btn">SIGN OUT</a>
+            </div>
+      <!-- Attendance Registration Box -->
+	  
+	 <div class="attendance">
+	 <h2>Attendance Registration</h2>
+	 </div>
+            <div class="attendance-box">
+               
+                <p><strong>Geolocation:</strong> 1234567, 283.3847578</p>
+                <p><strong>Event Title</strong></p>
+                <p><strong>Date:</strong> April 30, 2024</p>
+                <p><strong>Event Location</strong></p>
+
+                <input type="text" placeholder="StudID" class="input-field">
+                <input type="password" placeholder="Password" class="input-field">
+
+                <a href="attendanceRecord.html" class="check-in-btn">Check-In</a>
+
+                <p class="error-msg">Error: Location Mismatch</p>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

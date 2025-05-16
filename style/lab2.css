@@ -1,0 +1,41 @@
+
+    
+    .FK_images
+    {
+    
+	   padding: 10px;
+	   background-image: url("../images/FK4.png");
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size : cover;
+       
+        }
+    .FK_text
+    {
+      color: white;
+      background-color: transparent;
+      text-align:justify;
+    }
+    .column
+    {
+          float: left;
+          width: 10%;
+          padding: 10px;
+    }
+    .row:after 
+    {
+          content: "";
+          display: table;
+          clear: both;
+         }
+     .FK_program
+     {
+        background-color : #66CDAA;
+      padding:10px;
+     }
+     .bottom
+     {
+       text-align:center;
+     }
+     
+   

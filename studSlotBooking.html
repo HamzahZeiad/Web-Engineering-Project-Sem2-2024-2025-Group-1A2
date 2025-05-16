@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Hamzah" content="Web Engineering Project- Student Dashboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/studSlotBooking.css">
+    <title>MyPetakom - Student Dashboard</title>
+</head>
+<body>
+    <!-- Top Header -->
+    <div class="top-heading-container">
+        MyPetakom - Student Dashboard
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <!-- UMP Logo -->
+            <div class="logo">
+                <img src="TestImages/UMP-Logo.jpg" alt="UMP Logo">
+            </div>
+            <!-- Profile Picture -->
+            <img src="TestImages/IMG_9255.JPG" alt="Profile Picture">
+            <h2>Hamzah Zeiad (CB23007)</h2>
+
+            <a href="studentprofile.html">Profile</a>
+			<a href="dashboardstudent.html">Dashboard</a>
+            <a href="studentevent.html">Events</a>
+            <a href="studentattendance.html">Attendance</a>
+            <a href="Managemerit.html">Merit Management</a>
+        </div>
+		
+		<div class="main-content">
+            <div class="header">
+               <h1>Attendance</h1>
+				<a href="signoutstudent.html" class="signout-btn">SIGN OUT</a>
+            </div>
+            <div class="page-title">Slot Booking</div>
+			
+			
+ 
+
+  <form class="slot-booking-form">
+    <label for="event">Select Event:</label>
+    <select id="event" name="event">
+      <option value="">-- Select Event --</option>
+      <option value="event1">Event A</option>
+      <option value="event2">Event B</option>
+    </select>
+
+    <label for="date">Select Date:</label>
+    <input type="date" id="date" name="date">
+
+    <label for="time">Select Time:</label>
+    <select id="time" name="time">
+      <option value="">-- Select Time Slot --</option>
+      <option value="9am">9:00 AM - 10:00 AM</option>
+      <option value="10am">10:00 AM - 11:00 AM</option>
+    </select>
+
+    <div class="slot-buttons">
+	 <a href="bookingSuccessfully.html" class="button">Book</a>
+     <a href="attendanceRecord.html" class="button">Cancel</a>
+    </div>
+  </form>
+</div>
+</html>

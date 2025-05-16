@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Pavithra" content="Web Engineering Project- Student Dashboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/admin.css">
+    <title>MyPetakom - Update User</title>
+</head>
+<body>
+    <!-- Top Header -->
+    <div class="top-heading-container">
+        MyPetakom - Admin
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <!-- UMP Logo -->
+            <div class="logo">
+			<img src="TestImages/UMP-Logo.jpg" alt="UMP Logo">
+            </div>
+            <!-- Profile Picture -->
+            <img src="TestImages/user.png" alt="Profile Picture">
+            <h2>Pavithra</h2>
+            <a href="dashboardadmin.html">Dashboard</a>
+            <a href="membership.html">Membership application</a>
+            <a href="userprofile.html">User Profile</a>
+            <a href="#">Merit</a>
+        </div>
+        <main class="main-content">
+	  
+	   <div class="header">
+	     <div class="header-left">
+          <h1>User Profile</h1>
+		  
+	    </div>
+       </div>
+       <a href="signout.html" class="signout-btn">SIGN OUT</a>
+    
+	 <section class="user-profile">
+	 <div class="User-header">
+	   <h2 class="h2">Update User</h2>
+	  </div>
+	   <div class="form">
+	   <form>
+	   
+	   <label for="name">Name:</label>
+	   <input type="text" id="name" name="name" required><br>
+	   
+	   <label for="username">Username:</label>
+	   <input type="text" id="username" name="username" required><br>
+	   
+	   <label for="user">User:</label>
+	   <select id="user" id="user" name="user" required>
+	     <option value="Blank"></option>
+	     <option value="Event Advisor">Event Advisor</option>
+		 <option value="Student">Student</option>
+		</select><br> 
+	   <label for="password">Password:</label>
+	   <input type="password" id="password" name="password" required><br>
+	   
+	   <label for="date">Date:</label>
+	   <input type="date" id="date" name="date" required><br>
+	   
+	  <div class="btn">
+	   <a href="userprofile.html" class="button">Save</a>
+	   <a href="userprofile.html" class="button">Cancel</a>
+	   <a href="userprofile.html" class="button">Back</a>
+	   </div>
+	   </form>
+		</section>
+		</main>
+</body>
+</html>
